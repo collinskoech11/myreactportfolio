@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  align-items: center;
+}
+.nav-bar{
+  border: 2px solid teal;
+  background: rgba(0,0,0,0.5);
+  align-items: center;
+}
+.nav-bar ul{
+  display: inline-flex;
+}
+.nav-bar ul li{
+	width: 120px;
+	margin: 15px;
+	padding:15px;
+  border-radius: 5px;
+}
+.nav-bar ul li:hover {
+  background: red;
+  transform: translate(scale(1.5));
+}
+.active{
+  background: #fff;
+}
+.heading{
+  text-transform: uppercase;
+}
+.profile{
+
+}
+.profile img{
+
+}
